@@ -1,0 +1,50 @@
+.menu{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.menu > li{
+    float: left;
+}
+.menu > li{
+    position: relative;
+    padding: 0px;
+    border: yellow 1px solid;
+    width: 120px;
+    list-style-type: none;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    display: none;
+}
+.menu ul li> ul{
+    z-index: 20;
+    top: 5%;
+    left: 95%;
+}
+.menu a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    background-color: violet;
+    background-size: cover;
+    color: black;
+}
+.menu a:hover{
+    background-image: url();
+    background-size: cover;
+    color: white;
+}
+.menu li:hover > ul{
+    display: block;
+}
+.menu::after{
+    content: "";
+    display: block;
+    clear: both;
+}

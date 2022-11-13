@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+#all{
+    max-width: 1118px;
+    margin: 0 auto;
+}
+#header{
+    height: 100px;
+    background-color: white;
+}
+#logo1{
+    background-image: url(../pic/malaysia.png);
+    background-repeat: no-repeat;
+}
+#menu-wrapper{
+    padding-left: 100px;
+    background-color: antiquewhite;
+}
+#wrapper{
+    background-color: aquamarine;
+}
+#wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#aside{
+    float: left;
+    width: 130px;
+    padding: 0 5px;
+}
+main{
+    float: right;
+    width: 978px;
+    background-color: azure;
+}
+main .title{
+    font: bold;
+    width: 10px 20px;
+    color: beige;
+}
+#footer{
+    height: 50px;
+    background-color: bisque;
+    text-align: center;
+}
